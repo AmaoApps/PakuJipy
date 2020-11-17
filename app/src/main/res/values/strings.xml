@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Jipy</string>
+    <string name="app_name">Lefanty</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment_demo">Vista Inicial de Fragmento Home</string>
+    <string name="profile_fragment_demo">Vista Inicial de Fragmento Profile</string>
+
+    <string name="home_fragment_title">Inicio</string>
+    <string name="profile_fragment_title">Perfil</string>
+
 </resources>
