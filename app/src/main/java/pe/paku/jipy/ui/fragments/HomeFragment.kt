@@ -1,14 +1,14 @@
-package pe.paku.jipy.fragments
+package pe.paku.jipy.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import dagger.hilt.android.AndroidEntryPoint
 import pe.paku.jipy.R
 
-
+@AndroidEntryPoint
 class HomeFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null

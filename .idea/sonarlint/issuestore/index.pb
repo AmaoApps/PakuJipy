@@ -1,7 +1,37 @@
 
-^
-.app/src/main/java/pe/paku/jipy/MainActivity.kt,7\f\7f2b381641930e2c74f8abf2b8383402dc6454f7
 @
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+h
+8app/src/main/java/pe/paku/jipy/utils/NetworkConstants.kt,6\f\6fd2c4a43683734904d24f2b0e95cfe81e374e88
+o
+?app/src/main/java/pe/paku/jipy/data/local/database/LefantyDB.kt,1\1\1132a60b2f59637a6576593cdb15e69b47a02d36
+r
+Bapp/src/main/java/pe/paku/jipy/data/model/GithubRepositoryModel.kt,0\8\085075c4d5c7dd472a94ac4489d60aff809fa888
+b
+2app/src/main/java/pe/paku/jipy/di/NetworkModule.kt,9\c\9ca0f8dc8d5764282a9ca0a7d434e4251e07748e
+e
+5app/src/main/java/pe/paku/jipy/di/RepositoryModule.kt,c\d\cd2fb3e032d86ec6a192555783493b8d53c20824
+e
+5app/src/main/java/pe/paku/jipy/data/api/ApiService.kt,f\e\fe2b1ad123948913f91a44f39b74ea6b354b4a47
+q
+Aapp/src/main/java/pe/paku/jipy/repositories/ReminderRepository.kt,e\1\e173d16866f74e8586971148c1ccb80d8ecfca91
+f
+6app/src/main/java/pe/paku/jipy/usecases/DataUseCase.kt,6\3\635dad683a77b6c2174a6c63c9718bad71e69c41
+m
+=app/src/main/java/pe/paku/jipy/repositories/DataRepository.kt,9\8\98943d3327cc1ebb8942df9c0bedbd52d3e63c27
+b
+2app/src/main/java/pe/paku/jipy/di/UseCaseModule.kt,3\8\389c8adb4c3f2c1134b80b16274c5de576193a42
+k
+;app/src/main/java/pe/paku/jipy/ui/fragments/HomeFragment.kt,0\4\04b367bf7b107ef7cd1481554247b5de13457a81
+n
+>app/src/main/java/pe/paku/jipy/ui/fragments/ProfileFragment.kt,0\d\0d1e3a8ddde5e7f9f348863f164252ceb7b7026b
+b
+2app/src/main/java/pe/paku/jipy/ui/MainViewModel.kt,8\5\85a0d2723420c9640969519dc1af046d9ff14f8b
+g
+7app/src/main/java/pe/paku/jipy/data/model/ResultData.kt,6\7\67bdc5c75ed8145561497e1470aadc5bccf97362
+a
+1app/src/main/java/pe/paku/jipy/ui/MainActivity.kt,0\9\09de17591a3599a8913e3d66d28d3818da48b159
