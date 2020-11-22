@@ -49,7 +49,11 @@ i
 9app/src/main/java/pe/paku/lefanty/usecases/DataUseCase.kt,9\9\99813d0a9f38b4281a14be78a021abb721617ee0
 }
 Mapp/src/main/java/pe/paku/lefanty/data/local/entities/reminder/ReminderDao.kt,e\9\e99b388bb94e6fb1e5806c4a64c62c12ffc5e048
-n
->app/src/main/java/pe/paku/lefanty/ui/fragments/HomeFragment.kt,a\3\a395f8d960d719ccb54d11babec32594529f5e68
 e
 5app/src/main/java/pe/paku/lefanty/ui/MainViewModel.kt,7\5\752be6ef987e4d65a87a6f346a5775a574763f4f
+i
+9app/src/main/java/pe/paku/lefanty/usecases/HomeUseCase.kt,5\5\558d36061c778fda3bfd2c24a80d58b11d60845c
+s
+Capp/src/main/java/pe/paku/lefanty/ui/fragments/home/HomeFragment.kt,3\a\3a6f51118a48a5b1098e746ebcd0a6798df057d0
+t
+Dapp/src/main/java/pe/paku/lefanty/ui/fragments/home/HomeViewModel.kt,c\c\cc8d08c76cc4da90cd9706cb0334e67b5ca72c39

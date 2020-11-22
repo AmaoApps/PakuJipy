@@ -1,10 +1,18 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimaryDark">@color/primaryColor</item>
-        <item name="colorPrimary">@color/primaryColorLight</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/primaryColorAccent</item>
+    </style>
+
+
+    <style name="txtHeader">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">@font/nunito_bold</item>
+        <item name="android:textAlignment">center</item>
     </style>
 
 </resources>

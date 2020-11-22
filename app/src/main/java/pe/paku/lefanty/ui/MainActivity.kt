@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setUpNavigation()
 
+        /*
         val repositorios = mainViewModel.getRepositoriesList()
         repositorios.observe( this, Observer { resultData ->
             when(resultData){
@@ -42,7 +43,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
-        })
+        })*/
     }
 
     private fun setUpNavigation() {

@@ -7,4 +7,14 @@
     <string name="home_fragment_title">Inicio</string>
     <string name="profile_fragment_title">Perfil</string>
 
+
+    <!-- Tipos de Notificaciones -->
+    <string name="tipo_notificacion_simple">Simple</string>
+    <string name="tipo_notificacion_telefono">Telefono</string>
+    <string name="tipo_notificacion_tarjeta">Tarjeta</string>
+
+    <!-- Fragmento Home -->
+    <string name="frag_home_txt_header">Mis notificaciones</string>
+
+
 </resources>
