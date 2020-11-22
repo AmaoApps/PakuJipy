@@ -1,4 +1,4 @@
-package pe.paku.jipy
+package pe.paku.lefanty
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

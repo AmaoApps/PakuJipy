@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="pe.paku.jipy.ui.fragments.HomeFragment"
+        android:name="pe.paku.lefanty.ui.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="pe.paku.jipy.ui.fragments.ProfileFragment"
+        android:name="pe.paku.lefanty.ui.fragments.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>

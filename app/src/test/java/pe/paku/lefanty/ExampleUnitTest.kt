@@ -1,4 +1,4 @@
-package pe.paku.jipy
+package pe.paku.lefanty
 
 import org.junit.Test
 
