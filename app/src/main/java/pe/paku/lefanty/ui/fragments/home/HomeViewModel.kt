@@ -1,5 +1,6 @@
 package pe.paku.lefanty.ui.fragments.home
 
+import androidx.hilt.Assisted
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -17,8 +18,8 @@ class HomeViewModel
     private val homeUseCase: HomeUseCase
 ) : ViewModel (){
 
-    fun getReminders(): LiveData<ResultData<ArrayList<Reminder>>>{
-        return liveData<ResultData<ArrayList<Reminder>>> {
+    fun getReminders(): LiveData<ResultData<List<Reminder>>>{
+        return liveData<ResultData<List<Reminder>>> {
             emit(ResultData.Loading())
             emit(homeUseCase.getReminders())
         }

@@ -4,15 +4,18 @@ import androidx.lifecycle.LiveData
 import pe.paku.lefanty.data.local.entities.reminder.Reminder
 import pe.paku.lefanty.data.local.entities.reminder.ReminderDao
 import pe.paku.lefanty.data.model.GithubRepositoryModel
+import javax.inject.Inject
 
-class ReminderRepository(private val reminderDao: ReminderDao){
-    val reaAllReminder : LiveData<ArrayList<Reminder>> = reminderDao.readAllTable()
+class ReminderRepository @Inject constructor(
+    private val reminderDao: ReminderDao
+){
+    val reaAllReminder : LiveData<List<Reminder>> = reminderDao.readAllTable()
 
-    suspend fun getAllReminders() :  LiveData<ArrayList<Reminder>> {
+    suspend fun getAllReminders() :  LiveData<List<Reminder>> {
         return reminderDao.readAllTable()
     }
 
-    suspend fun getAllRemindersv2() :  ArrayList<Reminder> {
+    suspend fun getAllRemindersv2() :  List<Reminder> {
         return reminderDao.readAllTablev2()
     }
 

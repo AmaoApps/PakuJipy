@@ -57,3 +57,19 @@ s
 Capp/src/main/java/pe/paku/lefanty/ui/fragments/home/HomeFragment.kt,3\a\3a6f51118a48a5b1098e746ebcd0a6798df057d0
 t
 Dapp/src/main/java/pe/paku/lefanty/ui/fragments/home/HomeViewModel.kt,c\c\cc8d08c76cc4da90cd9706cb0334e67b5ca72c39
+P
+ app/src/main/res/font/nunito.xml,8\e\8e61438d63ac8df3edceb5899e763bf4b1ac004e
+U
+%app/src/main/res/font/nunito_bold.xml,f\0\f0ab9f87837c0dc398db3b5ecc75695709c86310
+[
++app/src/main/res/font/nunito_extralight.xml,6\e\6ec020c11082a6d9d235c8ad061857cfe279d5c6
+R
+"app/src/main/res/values/colors.xml,9\6\969faa2a5d9f5e8390e958d2c07f2cfd54676e6b
+V
+&app/src/main/res/values/font_certs.xml,8\7\8721b09acc6dcb831485a758e527a36efbbce1ff
+[
++app/src/main/res/values/preloaded_fonts.xml,1\a\1ac4bbe3e597dbb591474f97b69d35c8d7401efe
+S
+#app/src/main/res/values/strings.xml,d\2\d2281fbb3027de2722081a53408dd77628bf080e
+R
+"app/src/main/res/values/styles.xml,f\7\f79cc2688e29fcbc286fda14ae07b27c9e83690f

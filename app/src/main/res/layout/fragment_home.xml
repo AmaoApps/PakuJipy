@@ -1,21 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.fragments.home.HomeFragment">
+    xmlns:tools="http://schemas.android.com/tools" >
 
-    <TextView
-        style="@style/txtHeader"
+    <data>
+
+        <variable
+            name="homeViewModel"
+            type="pe.paku.lefanty.ui.fragments.home.HomeViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10pt"
-        android:fontFamily="@font/nunito_bold"
-        android:text="@string/frag_home_txt_header"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="46dp" />
+        android:layout_height="match_parent"
+        tools:context=".ui.fragments.home.HomeFragment">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textView"
+            style="@style/txtHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10pt"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/frag_home_txt_header"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="46dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_reminder"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/simple_margin"
+            android:layout_marginEnd="@dimen/simple_margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

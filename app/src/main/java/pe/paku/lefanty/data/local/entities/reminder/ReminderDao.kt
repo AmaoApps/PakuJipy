@@ -13,9 +13,9 @@ interface ReminderDao {
     suspend fun addReminder(reminder: Reminder)
 
     @Query("SELECT * FROM reminder_table ORDER BY id ASC")
-    fun readAllTable(): LiveData<ArrayList<Reminder>>
+    fun readAllTable(): LiveData<List<Reminder>>
 
     @Query("SELECT * FROM reminder_table ORDER BY id ASC")
-    fun readAllTablev2(): ArrayList<Reminder>
+    fun readAllTablev2(): List<Reminder>
 
 }

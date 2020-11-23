@@ -13,7 +13,7 @@ class HomeUseCase
     //TODO Agregar logica para consultar desde la bd o desde el api, considerar agregar el repositorio de Reminder API
 
 ) {
-    suspend fun getReminders(): ResultData<ArrayList<Reminder>> {
+    suspend fun getReminders(): ResultData<List<Reminder>> {
         val listReminders = reminderRepository.getAllRemindersv2()
         val resultData = if (!listReminders.isNullOrEmpty()){
             ResultData.Success(listReminders)
