@@ -23,4 +23,9 @@ class HomeUseCase
 
         return resultData
     }
+
+    suspend fun saveReminder(reminder : Reminder){
+        reminderRepository.saveReminder(reminder)
+        //ResultData.Success(reminderSaved)
+    }
 }

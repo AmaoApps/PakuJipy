@@ -5,9 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools" >
 
     <data>
-
         <variable
-            name="homeViewModel"
+            name="viewModel"
             type="pe.paku.lefanty.ui.fragments.home.HomeViewModel" />
     </data>
 
@@ -21,7 +20,7 @@
             style="@style/txtHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10pt"
+            android:layout_margin="20dp"
             android:fontFamily="@font/nunito_bold"
             android:text="@string/frag_home_txt_header"
             android:textColor="@color/colorPrimary"

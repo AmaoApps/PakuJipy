@@ -36,7 +36,6 @@ class ReminderAdapter : ListAdapter<Reminder, ReminderAdapter.ViewHolder>(Remind
         }
     }
 
-
 }
 
 

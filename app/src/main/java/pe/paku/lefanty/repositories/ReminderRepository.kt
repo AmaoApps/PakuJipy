@@ -20,8 +20,9 @@ class ReminderRepository @Inject constructor(
     }
 
     //Usar suspend para usar las coroutines
-    suspend fun addUser(reminder:Reminder){
+    suspend fun saveReminder(reminder:Reminder){
         reminderDao.addReminder(reminder)
     }
+
 
 }
