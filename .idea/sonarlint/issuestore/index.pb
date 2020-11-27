@@ -73,3 +73,7 @@ S
 #app/src/main/res/values/strings.xml,d\2\d2281fbb3027de2722081a53408dd77628bf080e
 R
 "app/src/main/res/values/styles.xml,f\7\f79cc2688e29fcbc286fda14ae07b27c9e83690f
+p
+@app/src/main/java/pe/paku/lefanty/ui/adapters/ReminderAdapter.kt,2\3\235645b8d592f0cd189084633083bae073eb8c8f
+R
+"app/src/main/res/values/dimens.xml,c\3\c3c1811dec2dbad2deeafb9aad505ca9631da740

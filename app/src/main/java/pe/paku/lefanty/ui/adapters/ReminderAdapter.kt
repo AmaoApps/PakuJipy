@@ -1,11 +1,13 @@
 package pe.paku.lefanty.ui.adapters
 
 
+import android.content.res.Resources
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import pe.paku.lefanty.R
 import pe.paku.lefanty.data.local.entities.reminder.Reminder
 import pe.paku.lefanty.databinding.CardReminderBinding
 
@@ -24,6 +26,11 @@ class ReminderAdapter : ListAdapter<Reminder, ReminderAdapter.ViewHolder>(Remind
 
         fun bind(item: Reminder) {
             binding.cardReminderTitle.text = item.code.toString()
+            binding.cardReminderType.text = item.type.toString()
+            binding.cardReminderDifficult.text = "Dificultad: ${item.difficult.toString()}"
+            if(item.type.equals("tarjeta")){
+                binding.imgTypeReminder.setImageDrawable(binding.root.context.getDrawable(R.drawable.ic_tarjeta_de_credito))
+            }
             //binding.executePendingBindings()
         }
 
