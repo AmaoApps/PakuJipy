@@ -71,8 +71,6 @@ V
 +app/src/main/res/values/preloaded_fonts.xml,1\a\1ac4bbe3e597dbb591474f97b69d35c8d7401efe
 S
 #app/src/main/res/values/strings.xml,d\2\d2281fbb3027de2722081a53408dd77628bf080e
-R
-"app/src/main/res/values/styles.xml,f\7\f79cc2688e29fcbc286fda14ae07b27c9e83690f
 p
 @app/src/main/java/pe/paku/lefanty/ui/adapters/ReminderAdapter.kt,2\3\235645b8d592f0cd189084633083bae073eb8c8f
 R

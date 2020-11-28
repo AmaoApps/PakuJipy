@@ -2,16 +2,20 @@ package pe.paku.lefanty.ui
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.gson.Gson
 import dagger.hilt.android.AndroidEntryPoint
 import pe.paku.lefanty.R
 import pe.paku.lefanty.data.model.ResultData
+import pe.paku.lefanty.databinding.BottomSheetAddBinding
+import pe.paku.lefanty.ui.fragments.home.BottomDialogAddFragment
 
 
 @AndroidEntryPoint
@@ -19,10 +23,12 @@ class MainActivity : AppCompatActivity() {
 
     private val mainViewModel by viewModels<MainViewModel>()
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setUpNavigation()
+        setUpAddButtonFab()
 
         /*
         val repositorios = mainViewModel.getRepositoriesList()
@@ -44,6 +50,15 @@ class MainActivity : AppCompatActivity() {
             }
 
         })*/
+    }
+
+    private fun setUpAddButtonFab() {
+        val buttonAddFab = findViewById<FloatingActionButton>(R.id.fab_add_button)
+        buttonAddFab.setOnClickListener {
+            BottomDialogAddFragment().apply {
+                show(supportFragmentManager, tag)
+            }
+        }
     }
 
     private fun setUpNavigation() {
