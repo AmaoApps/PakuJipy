@@ -15,6 +15,7 @@
 
     <!-- Fragmento Home -->
     <string name="frag_home_txt_header">Mis notificaciones</string>
+    <string name="agregar_memo">Agregar Memo</string>
 
 
 </resources>

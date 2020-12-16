@@ -30,4 +30,17 @@
         <item name="android:textAlignment">center</item>
     </style>
 
+    <style name="txtHeaderBottomSheet">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/nunito_bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="txtviewForm">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/nunito_semibold_italic</item>
+    </style>
+
 </resources>

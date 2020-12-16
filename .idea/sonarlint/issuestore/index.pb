@@ -69,9 +69,5 @@ V
 &app/src/main/res/values/font_certs.xml,8\7\8721b09acc6dcb831485a758e527a36efbbce1ff
 [
 +app/src/main/res/values/preloaded_fonts.xml,1\a\1ac4bbe3e597dbb591474f97b69d35c8d7401efe
-S
-#app/src/main/res/values/strings.xml,d\2\d2281fbb3027de2722081a53408dd77628bf080e
 p
 @app/src/main/java/pe/paku/lefanty/ui/adapters/ReminderAdapter.kt,2\3\235645b8d592f0cd189084633083bae073eb8c8f
-R
-"app/src/main/res/values/dimens.xml,c\3\c3c1811dec2dbad2deeafb9aad505ca9631da740
