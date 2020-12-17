@@ -11,6 +11,7 @@
     <color name="primaryColorAccentDark">#8F2D56</color>
     <color name="primaryColorAccentLight">#D81159</color>
     <color name="defaultWhite">#F0FFF3</color>
+    <color name="white">#FFFFFF</color>
     <color name="defaultBlack">#00171F</color>
     <color name="transparent">#00FFFFFF</color>
 </resources>

@@ -40,11 +40,12 @@ class BottomDialogAddFragment : BottomSheetDialogFragment(){
             "More Information"
         )
 
+        /*
         binding.listViewOptions.adapter = ArrayAdapter<String>(
             requireContext(),
             android.R.layout.simple_list_item_1,
             options
-        )
+        )*/
     }
 
 }
